@@ -4,8 +4,15 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
+  transition-duration: 0.4s;
 }
 
 .footer__column-link:last-child {
   margin-bottom: 16px;
+}
+
+.footer__column-link:hover {
+  transition: linear;
+  transition-duration: 0.4s;
+  opacity: 50%;
 }
