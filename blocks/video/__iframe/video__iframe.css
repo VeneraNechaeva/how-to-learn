@@ -4,6 +4,6 @@
   border: 0;
 }
 
-.video__iframe:first-child {
+.video__iframe:nth-child(1n) {
   margin-right: 20px;
 }
