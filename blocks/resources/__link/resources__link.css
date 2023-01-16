@@ -3,4 +3,12 @@
   height: 38px;
   display: flex;
   justify-content: center;
+  transition-duration: 0.4s;
+  border: solid 2px red;
+}
+
+.resources__link:hover {
+  transition: linear;
+  transition-duration: 0.4s;
+  opacity: 50%;
 }
